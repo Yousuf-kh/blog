@@ -1,8 +1,12 @@
-import React from "react";
+import CreateForm from "../components/CreateForm";
 import Main from "../layout/Main";
 
 const Create = () => {
-  return <Main>Create</Main>;
+  return (
+    <Main>
+      <CreateForm />
+    </Main>
+  );
 };
 
 export default Create;
