@@ -4,7 +4,9 @@ import Main from "../layout/Main";
 const Create = () => {
   return (
     <Main>
-      <CreateForm />
+      <div className="my-[10vh]">
+        <CreateForm />
+      </div>
     </Main>
   );
 };
